@@ -1,10 +1,19 @@
-body {
+body#sanity-check {
   color: #333;
   font-family: Helvetica, Arial, sans-serif;
-  background-color: skyblue; /* Sanity Check! */
+  background-color: #535356; /* Sanity Check! */
 }
 
-input {
+div.container-fluid {
+  position: fixed;
+}
+
+div#pre{
+  text-align: center;
+  display: inline-block;
+  margin-top: 0 auto;
+}
+/*input {
   display: block;
   width: 30%;
   font-size: 2em;
@@ -12,12 +21,23 @@ input {
   position: fixed;
   top: 10%;
   left: 35%;
-}
+}*/
 
-@media all and (max-width: 600px) {
+/*@media all and (max-width: 600px) {
   input {
     width: 100%;
     left: 0;
     top: 0;
   }
+}*/
+
+#clear {
+  margin-top: 50px;
+}
+
+button:hover{
+  background-color: cyan;
+}
+img:hover{
+  border: 2px solid cyan;
 }

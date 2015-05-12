@@ -10,10 +10,27 @@
 
     <!-- JS -->
 		<script src="http://code.jquery.com/jquery-2.1.4.js"></script>
-    <script src="mock_data.js"></script>
-    <script src="base.js"></script>
+    	<script src="mock_data.js"></script>
+    	<script src="base.js"></script>
+    	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+ 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
 	</head>
+
 	<body id="sanity-check">
-    <input type="text" placeholder="search gifs">
+	<nav class="navbar navbar-default ">
+	  <div class="container-fluid">
+	    <div class="navbar-header">	        <button type="button" class="btn btn-default navbar-btn" id="more">DOGE sayz moar gifs!</button>
+	        <button type="button" class="btn btn-default navbar-btn " id="reset">clear gifs :(</button>
+	    	<form class="navbar-form navbar-left" role="search">
+        		<div class="form-group">
+          			<input type="text" class="form-control" placeholder="Search gifs"> 
+        		</div>
+      		</form>
+	    </div>
+	  </div>
+	</nav>
+		<div id="pre"></div>
+	</form>
 	</body>
 </html>
