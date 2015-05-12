@@ -3,41 +3,26 @@ body#sanity-check {
   font-family: Helvetica, Arial, sans-serif;
   background-color: #535356; /* Sanity Check! */
 }
-
 div.container-fluid {
   position: fixed;
 }
-
-div#pre{
+div#main{
   text-align: center;
   display: inline-block;
-  margin-top: 0 auto;
+  margin-top: 4em;
 }
-/*input {
-  display: block;
-  width: 30%;
-  font-size: 2em;
-  margin: 0 auto;
-  position: fixed;
-  top: 10%;
-  left: 35%;
+img{
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+/*img:hover{
+  border: 0.5em solid #CCFF99;
 }*/
-
-/*@media all and (max-width: 600px) {
-  input {
-    width: 100%;
-    left: 0;
-    top: 0;
-  }
-}*/
-
-#clear {
-  margin-top: 50px;
+#reset:hover{
+  background-color: #CCFF99;
+  color: white;
 }
-
-button:hover{
-  background-color: cyan;
-}
-img:hover{
-  border: 2px solid cyan;
+#more:hover{
+  background-color: #CCFF99;
+  color: white;
 }
